@@ -1,0 +1,76 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.main{
+height: 100vh;
+width: 100vw;
+background-color: rgb(161, 141, 179);
+}
+.l1{
+height: 100px;
+width: 100%;
+background-color: black;
+padding: 10px;
+border: 5px solid rgb(182, 89, 89);
+border-radius: 50px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.l1 a{
+background-color: white;
+color: black;
+font-size: xx-large;
+border-radius: 30px;
+border: 2px solid rgb(165, 58, 58);
+padding: 5px;
+cursor: pointer;
+text-decoration: none;
+}
+.l1 a:hover{
+    background-color:black;
+    color:white;
+    font-style: italic;
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 50px;
+    border-bottom: 2px solid white;
+    
+}
+.offer{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    }
+    .offer p1{
+position: absolute;
+animation: moveRight 4s linear 2s infinite;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    @keyframes moveRight {
+from {
+top: 0;
+left: 0;
+
+}
+to {
+    top: 0;
+    left: 1000px;
+}
+
+
+    }
